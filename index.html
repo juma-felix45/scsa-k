@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SCSA-K Profile</title>
   <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
 
@@ -18,16 +21,19 @@
         <img src="SCSAK LOGO.jpeg" alt="SCSA-K Logo">
       </div>
 
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#founders">Founders</a></li>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#values">Core Values</a></li>
-        <li><a href="#objectives">Objectives</a></li>
-        <li><a href="#Leadership">Leadership</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#sponsors">Sponsors</a></li>
-        <li><a href="#contact">Contact</a></li> <!-- ✅ Contact tab -->
+<nav>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#founders">Founders</a></li>
+    <li><a href="#leadership">Leadership</a></li>
+    <li><a href="#events">Events</a></li>
+    <li><a href="#sponsors">Sponsors</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+        
       </ul>
     </div>
   </nav>
@@ -36,46 +42,22 @@
   <div id="top"></div>
 
   <!-- 🟦 Header -->
+  <section id="home" class="section">
   <header>
     <div class="container">
       <h1>SUPPLY CHAIN STUDENTS ASSOCIATION OF KENYA (SCSA-K)</h1>
       <p>Transforming supply chain to a professional standard.</p>
     </div>
   </header>
+   </section>
 
   <!-- 🔹 About -->
   <section id="about" class="section">
     <h2>About</h2>
+    </section>
     <p>SCSA-K plays a vital role in providing a platform for sharing supply chain knowledge among students, practitioners and professionals, producing highly qualified young leaders ready to spearhead change.</p>
-  </section>
-
-  <!-- 🔹 Founders -->
-  <section id="founders" class="section">
-  <h2>Founders</h2>
-  <div class="profile-grid">
-    <!-- Founder 1 -->
-    <div class="profile-card">
-      <img src="images/felix-abuor.jpg" alt="Felix Abuor">
-      <h3>Felix Abuor</h3>
-      <p class="speech">"I believe in empowering students to transform supply chain practices for a better future."</p>
-    </div>
-
-    <!-- Founder 2 -->
-    <div class="profile-card">
-      <img src="COLOURED.jpg" alt="Juma Felix">
-      <h3>Juma Felix</h3>
-      <p class="speech">"Our mission is to mentor the next generation of supply chain professionals."</p>
-    </div>
-
-    <!-- Founder 3 -->
-    <div class="profile-card">
-      <img src="images/ben-musembi.jpg" alt="Ben Musembi">
-      <h3>Ben Musembi</h3>
-      <p class="speech">"Collaboration is the key to achieving excellence in the supply chain sector."</p>
-    </div>
-  </div>
-</section>
-
+    <p>The Supply chain students association of Kenya aims to empower and equip students with the necessary skills and knowledge to excel in the field of supply chain management. It serves as a hub for education and networking providing members with access to industry insights, professional development opportunities, and a platform for collaboration among peers and experts. The association is dedicated to fostering a community of future leaders who are well-versed in the dynamics of supply chain operations and can contribute significantly to the country’s economic growth and efficiency in logistics and procurement.</p>
+  
 
   <!-- 🔹 Mission / Vision / Motto -->
   <section id="mission" class="section">
@@ -88,18 +70,30 @@
   </section>
 
   <!-- 🔹 Core Values -->
-  <section id="values" class="section">
-    <h2>Core Values</h2>
-    <ul>
-      <li>Integrity</li>
-      <li>Accountability</li>
-      <li>Transparency</li>
-      <li>Professionalism</li>
-      <li>Collegiality</li>
-      <li>Excellence</li>
-      <li>Continuous Improvement</li>
-    </ul>
-  </section>
+<!-- 🔹 Core Values -->
+<section id="values" class="section">
+  <h2>Core Values</h2>
+  <ul class="values-list">
+    <li><i class="fas fa-balance-scale"></i> Integrity</li>
+    <p>We advocate and uphold the highest standards of honesty, ethics, and professionalism in all our actions and decisions.</p>
+    <li><i class="fas fa-check-circle"></i> Accountability</li>
+    <p>We take responsibility for our actions and their outcomes, ensuring transparency and reliability in our commitments.</p> 
+    <li><i class="fas fa-eye"></i> Transparency</li>
+    <p>We foster an open environment where information is shared freely, promoting trust and collaboration among members.</p>
+    <li><i class="fas fa-users"></i> Teamwork</li>
+    <p>We believe in the power of collaboration, valuing diverse perspectives and working together to achieve common goals.</p> 
+    <li><i class="fas fa-user-tie"></i> Professionalism</li>
+    <p>We maintain a high level of competence and conduct, representing our association with dignity and respect.</p> 
+    <li><i class="fas fa-handshake"></i> Collegiality</li>
+    <p>We cultivate a supportive community where members respect and assist each other in their professional growth.</p>
+    <li><i class="fas fa-star"></i> Excellence</li>
+    <p>We strive for the highest quality in our services, continuously improving and innovating to meet the evolving needs of the supply chain industry.</p>  
+    <li><i class="fas fa-chart-line"></i> Continuous Improvement</li>
+    <p>We are committed to ongoing learning and development, embracing change and seeking opportunities to enhance our skills and knowledge.</p>  
+  </ul>
+</section>
+
+
 
   <!-- 🔹 Objectives -->
   <section id="objectives" class="section">
@@ -115,7 +109,49 @@
     </ol>
   </section>
 
-  <!-- 🔹 Patron advice -->
+  <!-- 🔹 Founders -->
+  <section id="founders" class="section">
+  <h2>Founders</h2>
+  <div class="profile-grid">
+  <!-- Founder 1 -->
+    <div class="profile-card">
+      <img src="abuor.jpg" alt="Felix Abuor">
+      <h3>Felix Abuor</h3>
+      <p class="speech">"As the Founder and CEO of the Supply Chain Students Association of Kenya (SCSAK), it is an honor to champion a community of emerging supply chain leaders who are passionate about driving change in this field.
+
+I founded SCSAK in October 2023 after witnessing the challenges many young supply chain enthusiasts faced—limited access to mentorship, minimal industry exposure, and few platforms to connect with professionals. I realized that while talent and ambition existed in abundance, opportunities to nurture them were scarce.
+
+SCSAK was therefore born to bridge this gap by creating a space where young enthusiasts can gain mentorship, practical skills, and professional networks that prepare them to excel in the dynamic world of supply chain. Our mission is not only to empower individuals but also to strengthen the supply chain profession in Kenya and beyond.
+
+I extend a warm invitation to all students, professionals, and partners to collaborate with us. Together, we can nurture talent, open doors of opportunity, and reimagine the future of supply chain."</p>
+    </div>
+
+  <!-- Founder 2 -->
+    <div class="profile-card">
+      <img src="PROFILE.png" alt="Juma Felix">
+      <h3>Juma Felix</h3>
+      <p class="speech">"Our mission is to mentor the next generation of supply chain professionals."</p>
+    </div>
+
+<!-- Founder 3 -->
+    <div class="profile-card">
+      <img src="images/ben-musembi.jpg" alt="lynne-agoya">
+      <h3>lynne-agoya</h3>
+      <p class="speech">"Collaboration is the key to achieving excellence in the supply chain sector."</p>
+    </div>
+
+<!-- Founder 4 -->
+    <div class="profile-card">
+      <img src="images/ben-musembi.jpg" alt="Ben Musembi">
+      <h3>Ben Musembi</h3>
+      <p class="speech">"Collaboration is the key to achieving excellence in the supply chain sector."</p>
+    </div>
+</section>
+
+<section id="leadership" class="section">
+<h2>LEAADERSHIP</h2>
+</section>
+  <!-- 🔹 Patron -->
 <section id="patron" class="section">
   <h2>Patron</h2>
   <div class="profile-card single">
@@ -124,72 +160,191 @@
     <p class="speech">"As patron, I encourage all members to uphold integrity, professionalism, and teamwork as they shape the future of supply chain management in Kenya."</p>
   </div>
 </section>
-    <section id="Leadership" class="section">
-  <h2>Secretariat</h2>
-  <div class="profile-grid">
+
+  <!-- 🔹 Secretariat -->
+<section id="secretariat" class="section">
+<!-- 🔹 Felix Abuor -->
     <div class="profile-card">
-      <img src="SCSAK LOGO.jpeg" alt="CEO Felix Abuor">
+      <img src="abuor.jpg" alt="CEO Felix Abuor">
       <h3>Felix Abuor – CEO</h3>
-      <p class="speech">"I am proud to lead an association that champions student empowerment in supply chain."</p>
+      <p class="speech">""On behalf of the Supply Chain Students Association of Kenya (SCSAK), I warmly welcome you to our platform. SCSAK was founded with a simple but powerful vision – to create a community where young supply chain enthusiasts can learn, connect, and grow into the next generation of leaders. We are not just preparing for the future of supply chain management; we are actively shaping it today through innovation, collaboration, and a commitment to excellence. Our association serves as a bridge between academia and industry, providing mentorship, training, networking opportunities, and practical exposure that empowers young supply chain enthusiasts to confidently step into the professional world. We believe that by nurturing talent at this stage, we are contributing to building a stronger, more sustainable, and globally competitive supply chain ecosystem for Kenya and beyond.""</p>
     </div>
+<!-- 🔹Juma Felix -->
     <div class="profile-card">
-      <img src="COLOURED.jpg" alt="Administrative Manager Juma Felix">
+      <img src="PROFILE.png" alt="Administrative Manager Juma Felix">
       <h3>Juma Felix – Administrative Manager</h3>
       <p class="speech">"Together, we can create opportunities for students to thrive in the supply chain industry."</p>
     </div>
+<!-- 🔹 Barbra Dunya -->
     <div class="profile-card">
-      <img src="images/benson-musembi.jpg" alt="Secretary General">
-      <h3>Benson Musembi – Secretary General</h3>
-      <p class="speech">"Transparency and collaboration are the foundation of our association."</p>
+      <img src="images/ben-musembi.jpg" alt="Finance Manager Barbra Dunya">
+      <h3>Babra Dunya – Finance Manager</h3>
+      <p class="speech">"Financial stewardship is crucial for sustaining our mission and impact."</p>
     </div>
+<!-- 🔹 Ben Musembi -->
     <div class="profile-card">
-      <img src="images/barbra-dunya.jpg" alt="Barbra Dunya">
-      <h3>Barbra Dunya – Director of Communications</h3>
-      <p class="speech">"Effective communication is key to our success."</p>
-  </div>
-    <div class="profile-card">
-      <img src="images/lynne-agoya.jpg" alt="Lynne Agoya">
-      <h3>Lynne Agoya – Director of Finance</h3>
-      <p class="speech">"Financial integrity is crucial for our growth and sustainability."</p>
+      <img src="images/ben-musembi.jpg" alt="Secretary General, Ben Musembi">
+      <h3>Ben Musembi – Secretary General</h3>
+      <p class="speech">"Effective communication is key to engaging our members and stakeholders."</p>
     </div>
-
+<!-- 🔹 Emily Wanjiru -->
     <div class="profile-card">
-      <img src="nick.jpeg" alt="Nickodemus">
-      <h3>Nickodemus – Director of Research</h3>
-      <p class="speech">"Research drives innovation in supply chain management."</p>
+      <img src="images/ben-musembi.jpg" alt="Marketing & communication Manager Lynne Agoya">
+      <h3>Lynne Agoya – Marketing & communication Manager</h3>
+      <p class="speech">"Organizing impactful events is at the heart of our association's activities."</p>  
     </div>
-
+<!-- 🔹 Nickodemus -->
     <div class="profile-card">
-      <img src="images/emily-njeri.jpg" alt="Emily Njeri">
-      <h3>Emily Njeri – Director of Training</h3>
-      <p class="speech">"Training is essential for building the skills of future supply chain leaders."</p>
+      <img src="images/ben-musembi.jpg" alt="welfare, gender and special interest Nickodemus">
+      <h3>Nickodemus – Welfare, Gender and Special interest Manager</h3>
+      <p class="speech">"Organizing impactful events is at the heart of our association's activities."</p>  
+    </div>
+<!-- 🔹 Emily Wanjiru -->
+    <div class="profile-card">
+      <img src="images/ben-musembi.jpg" alt="Auditor General Emily Wanjiru">
+      <h3>Emily Wanjiru – Auditor General</h3>
+      <p class="speech">"Empowering students with knowledge and skills is our top priority."</p>
     </div>
 </section>
+
+
 <section id="council" class="section">
-    <h3>Council</h3>
-    <ul>
-      <li>President</li>
-      <li>Vice President</li>
-      <li>Assistant Secretary General</li>
-      <li>Treasurer</li>
-      <li>Director of Events</li>
-      <li>Director of Membership</li>
-      <li>Director of Welfare</li>
-    </ul>
+  <h3>COUNCIL MEMBERS</h3>
+  <!-- current Council Members Section -->
+<section id="former-council" class="section">
+  <h3>CURRENT COUNCIL MEMBERS</h3>
+  <div class="former-council-container">
+
+<!-- President -->
+    <div class="member">
+      <img src="images/john_doe.jpg" alt="Donald Midodo">
+      <h4>Donald Midodo</h4>
+      <p>President </p>
+    </div>
+
+<!-- Vice President -->
+    <div class="member">
+      <img src="images/jane_smith.jpg" alt="Job Shikuku">
+      <h4>Job Shikuku</h4>
+      <p>Vice President </p>
+    </div>
+
+<!-- Secretary -->
+    <div class="member">
+      <img src="images/michael_brown.jpg" alt="Claris Andika">
+      <h4>Claris Andika</h4>
+      <p>Council Secretary </p>
+    </div>
+
+<!-- Director of Finance -->
+    <dev class="former-member">
+      <img src="images/michael_brown.jpg" alt="Ogutu">
+      <h4>Ogutu</h4>    
+      <p>Finance Director </p>
+    </div>
+
+<!-- Director of welfare -->
+    <dev class="former-member">
+      <img src="images/michael_brown.jpg" alt="Diana Rose">
+      <h4>Diana Rose</h4>    
+      <p>Director of welfare </p>
+    </div>  
+<!-- Director of Events -->
+    <dev class="former-member">
+      <img src="images/michael_brown.jpg" alt="Nancy kerubo">
+      <h4>Nancy Kerubo</h4>    
+      <p>Director of Events </p>
+    </div>  
+<!-- Director of member -->
+    <dev class="former-member">
+      <img src="images/michael_brown.jpg" alt="Owino">    
+      <h4>Owino</h4>
+      <p>Director of member </p>
+    </div>
   </section>
 
-  <!-- 🔹 Events -->
-  <section id="events" class="section">
-    <h2>Events</h2>
+  <section>
+      <h3>FORMER COUNCIL MEMBERS</h3>
+<!-- Former Council Members Section -->
+<section id="former-council" class="section">
+  <h3>Former Council Members</h3>
+  <div class="former-council-container">
+    
+<!-- Chairperson -->
+    <div class="former-member">
+      <img src="images/john_doe.jpg" alt="felix abuor">
+      <h4>Felix Abuor</h4>
+      <p>Chairperson </p>
+    </div>
+<!-- Organizing Secretary -->
+    <div class="former-member">
+      <img src="images/jane_smith.jpg" alt="Felix Juma">
+      <h4>Juma Felix</h4>
+      <p>Organizing Secretary </p>
+    </div>
+<!-- 🔹 Secretary General -->
+    <div class="former-member">
+      <img src="images/michael_brown.jpg" alt="Benson Musembi">
+      <h4>Benson Musembi</h4>
+      <p>Secretary General </p>
+    </div>
+<!-- 🔹 Treasure -->
+    <div class="former-member">
+      <img src="images/michael_brown.jpg" alt="Nicole Helen">
+      <h4>Nicole Hellen</h4>    
+      <p>Treasure </p>
+    </div>  
+<!-- 🔹 Director Communication and Marketing -->
+    <div class="former-member">
+      <img src="images/michael_brown.jpg" alt="Emily Njeri">
+      <h4>Emily Njeri</h4>
+      <p>Director of Training </p>
+    </div>
+<!-- 🔹 Treasure -->
+    <div class="former-member">
+      <img src="images/michael_brown.jpg" alt="Lynne Agoya">
+      <h4>Lynne Agoya</h4>    
+      <p>Finance Director </p>
+    </div>  
+<!-- 🔹 Auditor General -->
+    <div class="former-member">
+      <img src="images/michael_brown.jpg" alt="Nickodemus">
+      <h4>Nickodemus</h4>
+      <p>Director of Research </p>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+<section id="events" class="section">
+  <h2>Events</h2>
+  <div class="Events"></div>
     <h3>Past Events</h3>
-    <ul>
-      <li>Kisii University Event</li>
-      <li>Masinde University Event</li>
-      <li>KCA University Event</li>
-    </ul>
+  <!-- Event 1 -->
+  <div class="event">
+    <img src="332cc05af7714206af1f531a7b50124f[1] copy.jpg" alt="Masinde University Event">
+    <h4>Masinde University Event</h4>
+    <p>This event brought together students and professionals to share knowledge and network.</p>
+  </div>
+  <!-- Event 2 -->
+  <div class="event">
+    <img src="image.png" alt="KCA University Event">
+    <img src="IMG_2098.jpg" alt="KCA University Event">
+    <img src="IMG_2233.jpg" alt="KCA University Event">
+    <img src="IMG_2238.jpg" alt="KCA University Event">
+    <img src="IMG_2242.jpg" alt="KCA University Event">
+    <img src="IMG_2300.jpg" alt="KCA University Event">
+    <img src="IMG_2356.jpg" alt="KCA University Event">
+    <h4>KCA University Event</h4>
+    <p>A leadership and innovation workshop held at KCA University.</p>
+</div>
+<!--  Event 2 -->
     <h3>Future Events</h3>
     <ul>
       <li>JKUAT Event</li>
+      <img src="images/kca_event.jpg" alt="JKUAT University Event">
+<!-- upcoming Event 2 -->
+    <h4>JKUAT University Event</h4>
+    <p>Poster of future event.</p>
       <li>Inter-university Club Visit</li>
       <li>National Conferences</li>
     </ul>
@@ -198,6 +353,7 @@
   <!-- 🔹 Sponsors -->
   <section id="sponsors" class="section">
   <h2>Sponsors</h2>
+  </section>
   <div class="sponsor-grid">
 
     <!-- Sponsor 1 -->
@@ -231,8 +387,6 @@
       <h3>CEO – KISEB</h3>
       <p class="speech">"We support students as the future leaders who will transform procurement and supply chain in Kenya."</p>
     </div>
-
-  </div>
 </section>
 
     <!-- 🔹 Contact Section -->
@@ -244,7 +398,7 @@
       <div class="contact-info">
         <h3>Get in Touch</h3>
         <p><strong>Email:</strong> scsak934@gmail.com</p>
-        <p><strong>Phone:</strong> +254 797937335</p>
+        <p><strong>Phone:</strong> +254797937335/+254745139028</p>
         <p><strong>Address:</strong> Nairobi, Kenya</p>
       </div>
 
